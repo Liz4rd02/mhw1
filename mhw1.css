@@ -1,0 +1,800 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1F;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 1080px;
+    height: fit-content;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #5383E8;
+    display: block;
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0px;
+    
+}
+
+
+#background{
+    background-color: #1C1C1F;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.background-img{
+    height: 225px;
+    width: 470px;
+    margin: 0px;
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 55px;
+}
+
+.nav1{
+    display: inline-flex;
+    flex-direction: row;
+    height: 45%;
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+}
+
+.other-sites{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1;
+    background-color: #28344E;
+    font-size: small;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    height: 55%;
+    font-size: 15px;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0px;
+    white-space: nowrap;
+}
+
+#opgg-logo{
+  height: 16px;
+  width: 65px;
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+.nav1 img{
+    margin-left:13px;
+}
+
+.nav1 h1{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 13px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.nav2 a:hover, #current-page{
+    opacity: 100%;
+    border-bottom: 3px solid white;
+}
+
+.nav2 a {
+    display: flex;
+    align-items: center;
+    opacity: 60%;
+    margin-right: 20px;
+    font-size: 15px;
+    height: 93%;
+}
+
+#game-mode{
+    color:#00fede;
+    opacity: 100%;
+}
+
+#game-mode:hover{
+    color:white;
+}
+
+.nav2 img{
+    height: 30px;
+    width: 30px;
+    padding-top: 0px;
+    border-radius: 15px;
+    display: inline;
+    margin-right: 7px;
+    margin-top: 7px;
+    margin-left: 326px;
+}
+
+.other-sites a{
+  margin-left: 6px;
+  opacity: 80%;
+}
+
+.site-box:hover{
+    background-color: rgb(55, 72, 112);
+}
+
+.site-box{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 13px;
+    margin-right: 0;
+    border-radius: 5px;
+    height: 80%;
+    width: fit-content;
+    padding-right: 13px;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.site-box img{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#darkmode, #FAQ{
+    height:24px;
+    width: 24px;
+    margin: 5px;
+}
+
+
+#user-box{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 800px;
+    background: #31313C;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+#region{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 90%;
+    width: 25%;
+
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 13px;
+}
+
+#search{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 90%;
+    width: 30%;
+
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 13px;
+}
+
+#user-box a{
+    margin-left: 28%;
+    font-size: 25px;
+    color: rgb(80, 144, 248);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    padding-right: 0px;
+    width: 5%;
+    height: 52%;
+}
+
+#user-box a img{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#lingua{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 13px;
+    border-radius: 5px;
+}
+
+#lingua img{
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+
+#scegli{
+    background-color: #28344E;
+    color: white;
+    font-size: 12px;
+    opacity: 80%;
+    border: none;
+    font-weight: 100;
+}
+
+#login{
+    border-radius: 5px;
+    background-color: #5383E8;
+    padding: 6px 16px 6px 16px;
+    font-size: 12px;
+    height: fit-content;
+    margin-top: 0px;
+    white-space: nowrap;
+    opacity: 100%;
+}
+
+#login:hover{
+    background-color: rgb(89, 147, 241);
+}
+
+
+#header-ending{
+    display: inline-flex;
+    width: fit-content;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 1%;
+    min-width: 175px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    height: 100%;
+    z-index: 1;
+    background-color:#28344E; 
+}
+
+#mypage{
+    display: inline-flex;
+    margin-left:-34px;
+    padding-left: 34px;
+    width: fit-content;
+}
+
+#rect{
+    width: 1080px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: #31313c;
+}
+
+#premium-box{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: fit-content;
+    background: rgb(40, 40, 48);
+    border-radius: 50px;
+    margin-bottom: 25px;
+    background-image: url(https://s-lol-web.op.gg/images/premium/bg-opgg-premium-banner-home.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#premium-img1{
+    height:80%;
+    width: 120px;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+#premium-img2{
+    height:55%;
+    width: 7%;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+#premium-advertising{
+    height: 100%;
+    font-family: '__Roboto_5b92f9', '__Roboto_Fallback_5b92f9', sans-serif, system-ui, sans-serif;
+    padding-top: 23px;
+    margin-right: 60px;
+    white-space: nowrap;
+}
+
+#premium-logo{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px;
+
+} 
+
+#premium-beta{
+    display: inline-block;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1px 4px;
+    border-radius: 5px;
+    background-color: rgb(76, 140, 255);
+    font-weight: 750;
+} 
+
+#premium-text{
+    display: block;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 400;
+} 
+
+#menu{
+    display: none;
+    margin-right: 12px;
+}
+
+
+@media (max-width: 1550px){
+#s1{
+    display:none;
+}
+
+#menu{
+    display: inline-block;
+}
+}
+
+@media (max-width: 1515px){
+    #s2{
+        display:none;
+    }
+}
+
+@media (max-width: 1425px){
+    #s3{
+        display:none;
+    }
+}
+
+@media (max-width: 1350px){
+    #s4{
+        display:none;
+    }
+}
+
+@media (max-width: 1240px){
+    #s5{
+        display:none;
+    }
+}
+
+@media (max-width: 1110px){
+    #s6{
+        display:none;
+    }
+}
+
+#rect2{
+    display: flex;
+    justify-content: space-between;
+    height: 465px;
+    width: 1080px;
+    margin-top: 40px;
+}
+
+#opgg-desktop{
+    display: inline-flex;
+    flex-direction: column;
+    width: 49.5%;
+    height: 100%;
+    background-color: #31313c;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#player-of-the-week{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 49.5%;
+    height: 100%;
+    background-color: #31313c;
+    border-radius: 5px;
+}
+
+#ad{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    border-bottom: 2px solid #1C1C1F;
+    padding-left: 20px;
+}
+
+#features{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: 100%;
+    padding: 20px 0px 20px 50px;
+    background-color: #282830;
+    border-radius: 5px;
+}
+
+#features img{
+    width: 200px;
+    height: 125px;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+#features span{
+    width: 200px;
+    height: 40px;
+    margin-right: 30px;
+    text-align: center;
+ 
+}
+
+#title{
+    display: block;
+    position: relative;
+    height: 18%;
+    width: 100%;
+}
+
+#standing{
+    display: inline-flex;
+    width: 50%;
+    height: 82%;
+    flex-direction: column;
+}
+
+#schedule{
+    display: inline-flex;
+    width: 50%;
+    height: 82%;
+    flex-direction: column;
+}
+
+#POW-logo{
+    margin:13px;
+}
+
+.standing-header{
+    width: 100%;
+    height: calc(100%/7);
+    border-top: 1px solid #1C1C1F;
+    position: relative;
+}
+
+.team-list{
+    width: 100%;
+    height: calc(100%/7);
+    width: 100%;
+    border-top: 1px solid #1C1C1F;
+}
+
+.schedule-header{
+    width: 100%;
+    height: calc(100%/7);
+    border-top: 1px solid #1C1C1F;
+    border-left: 1px solid #1C1C1F;
+    position: relative;
+    padding: 0xp;
+}
+
+.game-list{
+    width: 100%;
+    height: 43%;
+    border-top: 1px solid #1C1C1F;
+    border-left: 1px solid #1C1C1F;;
+}
+
+.game-list:hover, .team-list:hover{
+    background-color: #282830;
+}
+
+.schedule-header h4, .standing-header h4{
+    margin: 0px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1C1C1F;
+    color: white;
+    font-size: 14px;
+    height: fit-content;
+    width: 1080px;
+    margin-top: 85px;
+    background-color: #1C1C1F;;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+footer div{
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+#footer-title{
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+footer a{
+    color:#9E9EB1;
+    margin-top: 10px; 
+    display: inline-flex;
+    align-items: center;
+}
+
+footer a img{
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}
+
+#footer-logo{
+   height: fit-content;
+   margin-top: 0px;
+}
+
+#footer-logo img{
+    width: 100px;
+    height: 25px;
+    margin: 0px;
+}
+
+#copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-top: 1px solid #424254;
+    height: fit-content;
+    color: #7B7A8E;
+    font-size: 12.5px;
+    padding-top: 25px;
+    position: relative;
+}
+
+#copyright span{
+    width: 80%;;
+    margin-right: 25px;
+}
+
+
+#social-media{
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
+    right:0px;
+    bottom: 0px;
+    height: 25px;
+    margin-bottom: 0px;
+}
+
+#social-media a{
+    height: 100%;
+    margin: 0px;
+}
+
+#social-media a img{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px){
+    article{
+        min-width: none;  
+        width: 100vw;
+    }
+    
+    .site-box, #FAQ, #darkmode{
+        display: none;
+        flex-grow: 0;
+    }
+    
+    .other-sites{
+        flex-grow: 0;
+        width: fit-content;
+        
+    }
+    
+    #header-ending{
+        flex-grow: 1;
+        margin-right: 0px;
+    }
+    
+    .nav2 img{
+        margin-left: 13px;
+        margin-top: 0px;
+    }
+    
+    .nav2{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    
+    article{
+        width: 100vw;  
+        min-width: 750px;
+    }
+    
+    #background{
+        align-items: center;
+    }
+    
+    
+    #rect2{
+        flex-direction: column;
+        height: 1200px;
+        width: 100vw;
+        min-width: 520px;
+    }
+    
+    #rect{
+        width: 100vw;
+        min-width: 520px;
+    }
+    
+    footer{
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    #copyright{
+        width: 100vw;
+    }
+    
+    body, html{
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #opgg-desktop, #player-of-the-week{
+        width: 100%;
+        min-width: 520px;
+    }
+    #user-box{
+        width: 100vw;
+        min-width: 520px;
+    }
+    
+    #region input, #seatch input{
+        width: 70%;
+    }
+
+    #player-of-the-week{
+        margin-top: 50px;
+    }
+
+    header{
+        height: 220px;
+    }
+
+    .nav1{
+        height: 30%;
+    }
+
+    .nav2{
+        height: 70%;
+        flex-wrap: wrap;
+    }
+
+    .nav1 img{
+        height: 80%;
+        margin: 0px;
+    }
+
+    .nav1 h1{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .nav1 a{
+        height: 80%;
+        padding: 0px;
+        width: 20%;
+    }
+
+    #opgg-logo{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    #social-media{
+        flex-direction: column;
+        top:0px;
+        
+    }
+
+    #social-media a{
+        margin-top: 10px;
+    }
+
+    .nav2 a{
+        font-size: 25px;
+        height: 45%;
+    }
+
+    .nav2 a:hover, #current-page{
+        border-bottom-width: 6px;
+    }
+
+    .nav2 img{
+       height: 40%;
+       width: 8%;
+       margin-left: auto;
+    }
+
+    #mypage{
+        margin-left: -65px;
+        padding-left: 65px;
+    }
+
+    #lingua, #scegli{
+        height: 100%;
+        font-size: 22px;
+        margin-right: 0px;
+    }
+
+    #login{
+        padding: 10px 32px;
+        font-size: 22px;
+    }
+
+    #menu{
+        margin-right: 0px;
+    }
+
+    #mypage{
+        align-items: center;
+    }
+}
+
