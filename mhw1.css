@@ -210,6 +210,18 @@ header{
     font-size: 13px;
 }
 
+#region select, #search input{
+    background-color: #31313C;
+    border: none;
+    color: #7B7A8E;;
+}
+
+#region select{
+    margin-left: -5px;
+    margin-top: -9px;
+    width: 93%;
+}
+
 #user-box a{
     margin-left: 28%;
     font-size: 25px;
